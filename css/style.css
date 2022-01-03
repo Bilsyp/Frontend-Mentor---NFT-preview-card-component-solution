@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background:hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: scroll;
+  padding: 20px;
+}
+.container{
+  width: 375px;
+  margin: auto;
+  background:hsl(216, 50%, 16%);
+  position: relative;
+  border-radius: 10px;
+}
+.container .card {
+  width:80%;
+  color: white;
+  margin:30px auto;
+  padding: 5px;
+  
+}
+.container .card .card-body{
+  width: 100%;
+}
+
+.container .card .card-body h2 {
+  font-weight: 600;
+}
+.container .card .card-body p {
+  color:hsl(215, 51%, 70%);
+font-size: 18px;
+  font-weight: 300;
+}
+.container .card .container-img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.container .card .card-body .row {
+  width: 100%;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+}
+.container .card .card-body .hr {
+  width: 100%;
+  height: 1px;
+  background:hsl(215, 32%, 27%);
+}
+.container .card .card-body .row .col-1 .container-diamond{
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container .card .card-body .row .col-1 .container-diamond img{
+margin-right: 10px;
+}
+.container .card .card-body .row .col-1 .container-diamond span{
+  
+color:hsl(178, 100%, 50%);
+}
+.container .card .card-body .row .col-2 .container-clock{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  float: right;
+}
+.container .card .card-body .row .col-2 .container-clock img{
+  margin-right: 12px;
+}
+.container .card .card-body .row .col-2 .container-clock span{
+  color:hsl(215, 51%, 70%);
+}
+.container .card .card-body .container-avatar {
+  width: 100%;
+  position: relative;
+}
+.container .card .card-body .container-avatar .Avatar {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .card .card-body .container-avatar .Avatar img {
+  width:50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.container .card .card-body .container-avatar .Avatar .Creation {
+  color:hsl(215, 51%, 70%); ;
+}
+.container .card .card-body .container-avatar .Avatar .name{
+  color:white;
+}
